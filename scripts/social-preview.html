@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+        background: #111;
+        color: #f7f1e6;
+        font-family: Georgia, serif;
+      }
+      .frame {
+        position: relative;
+        width: 1200px;
+        height: 630px;
+        background: #111;
+      }
+      .grid {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 4px;
+        opacity: 0.72;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: saturate(0.86) contrast(1.04);
+      }
+      .shade {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(90deg, rgba(17,17,17,0.94) 0%, rgba(17,17,17,0.78) 45%, rgba(17,17,17,0.28) 100%),
+          linear-gradient(0deg, rgba(17,17,17,0.92) 0%, rgba(17,17,17,0.32) 55%, rgba(17,17,17,0.18) 100%);
+      }
+      .copy {
+        position: absolute;
+        left: 70px;
+        bottom: 62px;
+        width: 780px;
+      }
+      h1 {
+        margin: 0;
+        font: 700 92px/0.88 Georgia, serif;
+        letter-spacing: -0.055em;
+      }
+      p {
+        margin: 28px 0 0;
+        max-width: 680px;
+        font: 31px/1.24 Georgia, serif;
+        color: #e8dcc9;
+      }
+      .rule {
+        width: 150px;
+        height: 8px;
+        margin-bottom: 34px;
+        background: #edb653;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="frame">
+      <div class="grid">
+        <img src="../public/apartment-images/16051120220000.webp" />
+        <img src="../public/apartment-images/16053120310000.webp" />
+        <img src="../public/apartment-images/16053150260000.webp" />
+        <img src="../public/apartment-images/16053190110000.webp" />
+        <img src="../public/apartment-images/16063210170000.webp" />
+        <img src="../public/apartment-images/16071050050000.webp" />
+        <img src="../public/apartment-images/16073110280000.webp" />
+        <img src="../public/apartment-images/16074190020000.webp" />
+        <img src="../public/apartment-images/16083030290000.webp" />
+        <img src="../public/apartment-images/16083130290000.webp" />
+        <img src="../public/apartment-images/16171000270000.webp" />
+        <img src="../public/apartment-images/16171130150000.webp" />
+        <img src="../public/apartment-images/16173050060000.webp" />
+        <img src="../public/apartment-images/16173200010000.webp" />
+        <img src="../public/apartment-images/16181250100000.webp" />
+        <img src="../public/apartment-images/16182130360000.webp" />
+        <img src="../public/apartment-images/16182210170000.webp" />
+        <img src="../public/apartment-images/16183090070000.webp" />
+        <img src="../public/apartment-images/16184080200000.webp" />
+        <img src="../public/apartment-images/16184110230000.webp" />
+        <img src="../public/apartment-images/16063010310000.webp" />
+        <img src="../public/apartment-images/16063110180000.webp" />
+        <img src="../public/apartment-images/16071120050000.webp" />
+        <img src="../public/apartment-images/16073120250000.webp" />
+        <img src="../public/apartment-images/16081040230000.webp" />
+        <img src="../public/apartment-images/16083200020000.webp" />
+        <img src="../public/apartment-images/16171270260000.webp" />
+        <img src="../public/apartment-images/16173140200000.webp" />
+        <img src="../public/apartment-images/16181320230000.webp" />
+        <img src="../public/apartment-images/16182280320000.webp" />
+        <img src="../public/apartment-images/16183270170000.webp" />
+        <img src="../public/apartment-images/16184240200000.webp" />
+      </div>
+      <div class="shade"></div>
+      <section class="copy">
+        <div class="rule"></div>
+        <h1>The character of Oak Park</h1>
+        <p>Over 500 apartments already embedded in quiet, leafy neighborhoods.</p>
+      </section>
+    </main>
+  </body>
+</html>
