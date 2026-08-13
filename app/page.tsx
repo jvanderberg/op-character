@@ -11,7 +11,7 @@ export const metadata = {
     title: "The Character of Oak Park",
     description: "Embedded apartment buildings are already part of Oak Park's residential fabric.",
     url: "/",
-    images: ["/character-og.png"],
+    images: ["/character-og.webp"],
   },
 };
 
