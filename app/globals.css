@@ -199,9 +199,9 @@ footer a { white-space: nowrap; }
 /* ---------- character collage ---------- */
 .character-page { background: #111; color: #f7f1e6; min-height: 100svh; }
 .character-hero { min-height: 78svh; display: grid; align-items: end; padding: 12svh 7vw 8svh; position: relative; overflow: hidden; background: var(--navy); }
-.character-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(17, 17, 17, .92) 0%, rgba(17, 17, 17, .62) 48%, rgba(17, 17, 17, .22) 100%), linear-gradient(0deg, rgba(17, 17, 17, .88) 0%, rgba(17, 17, 17, .12) 55%); z-index: 1; }
+.character-hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(17, 17, 17, .74) 0%, rgba(17, 17, 17, .42) 48%, rgba(17, 17, 17, .08) 100%), linear-gradient(0deg, rgba(17, 17, 17, .68) 0%, rgba(17, 17, 17, .08) 58%); z-index: 1; }
 .character-hero > div:not(.character-hero-grid) { max-width: 1180px; position: relative; z-index: 2; }
-.character-hero-grid { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: 33.333%; gap: 4px; opacity: .62; z-index: 0; }
+.character-hero-grid { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(6, 1fr); grid-auto-rows: 33.333%; gap: 4px; opacity: .82; z-index: 0; }
 .character-hero-grid img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.85) contrast(1.05); }
 .character-kicker { margin: 0 0 18px; font: 11px Arial, sans-serif; letter-spacing: .18em; text-transform: uppercase; color: #edb653; }
 .character-hero h1 { margin: 0; max-width: 1000px; font: 700 clamp(58px, 9vw, 142px)/.82 Georgia, serif; letter-spacing: -.055em; }
@@ -266,8 +266,8 @@ footer a { white-space: nowrap; }
   footer { grid-template-columns: 1fr; }
   footer > div { justify-content: flex-start; }
   .character-hero { min-height: 66svh; padding: 80px 24px 48px; }
-  .character-hero::after { background: linear-gradient(90deg, rgba(17, 17, 17, .94) 0%, rgba(17, 17, 17, .72) 100%), linear-gradient(0deg, rgba(17, 17, 17, .88), rgba(17, 17, 17, .2)); }
-  .character-hero-grid { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 25%; opacity: .48; }
+  .character-hero::after { background: linear-gradient(90deg, rgba(17, 17, 17, .78) 0%, rgba(17, 17, 17, .54) 100%), linear-gradient(0deg, rgba(17, 17, 17, .7), rgba(17, 17, 17, .08)); }
+  .character-hero-grid { grid-template-columns: repeat(3, 1fr); grid-auto-rows: 25%; opacity: .72; }
   .character-hero h1 { font-size: clamp(54px, 16vw, 76px); }
   .character-hero p:last-child { font-size: 18px; }
   .character-intro { grid-template-columns: 1fr; padding: 52px 24px; gap: 24px; }
