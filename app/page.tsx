@@ -1,8 +1,7 @@
 import { EMBEDDED_APARTMENTS } from "./generated/character-collage";
 import { CollageImage } from "./CollageImage";
 
-const siteBasePath = process.env.GITHUB_ACTIONS ? "/op-character" : "";
-const assessorImage = (pin: string) => `${siteBasePath}/apartment-images/${pin}.webp`;
+const assessorImage = (pin: string) => `/apartment-images/${pin}.webp`;
 const assessorPage = (pin: string) => `https://www.cookcountyassessoril.gov/pin/${pin}`;
 
 export const metadata = {
