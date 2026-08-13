@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "Oak Park, Explained",
     type: "website",
-    images: [{ url: "/og.png", width: 2400, height: 1260, alt: "The Character of Oak Park" }],
+    images: [{ url: "/character-og.png", width: 2400, height: 1260, alt: "The Character of Oak Park" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Character of Oak Park",
     description:
       "Embedded apartment buildings are already part of Oak Park's residential fabric.",
-    images: ["/og.png"],
+    images: ["/character-og.png"],
   },
 };
 
