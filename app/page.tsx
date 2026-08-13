@@ -48,10 +48,6 @@ export default function CharacterPage() {
           Here’s a visual sampling of over 500 of them, fitting right in. Most of them have been
           here longer than we have.
         </p>
-        <p>
-          {EMBEDDED_APARTMENTS.length.toLocaleString()} embedded apartment parcels are shown here
-          from the same assessor-derived dataset used in the proximity analysis.
-        </p>
       </section>
 
       <section className="photo-collage" aria-label="Collage of embedded apartment buildings in Oak Park">

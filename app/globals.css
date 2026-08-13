@@ -206,7 +206,7 @@ footer a { white-space: nowrap; }
 .character-kicker { margin: 0 0 18px; font: 11px Arial, sans-serif; letter-spacing: .18em; text-transform: uppercase; color: #edb653; }
 .character-hero h1 { margin: 0; max-width: 1000px; font: 700 clamp(58px, 9vw, 142px)/.82 Georgia, serif; letter-spacing: -.055em; }
 .character-hero p:last-child { margin: 28px 0 0; max-width: 700px; font: 22px/1.45 Georgia, serif; color: #e2d7c5; }
-.character-intro { display: grid; grid-template-columns: 1.1fr .9fr; gap: 7vw; padding: 78px 7vw; background: #f3efe6; color: var(--ink); }
+.character-intro { display: grid; max-width: 920px; padding: 78px 7vw; background: #f3efe6; color: var(--ink); }
 .character-intro p { margin: 0; font: 20px/1.55 Georgia, serif; }
 .character-intro p:last-child { color: var(--muted); }
 .photo-collage { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); grid-auto-rows: 160px; grid-auto-flow: dense; gap: 4px; padding: 4px; background: #111; }
