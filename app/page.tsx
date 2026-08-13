@@ -35,20 +35,18 @@ export default function CharacterPage() {
           ))}
         </div>
         <div>
-          <p className="character-kicker">Oak Park, Illinois</p>
           <h1>The character of Oak Park</h1>
           <p>
-            These are embedded apartment buildings: two-flats and small apartment buildings on
-            residential blocks, away from the arterials and commercial strips.
+            The character of Oak Park has always included apartments: two-flats, courtyard
+            buildings, smaller apartment buildings, embedded in quiet, leafy neighborhoods.
           </p>
         </div>
       </section>
 
       <section className="character-intro">
         <p>
-          The point is visual before it is statistical. Oak Park already has this form everywhere:
-          brick flats, courtyard buildings, frame two-flats, quiet entries, porches, cornices, and
-          apartment doors sitting comfortably among houses.
+          Here’s a visual sampling of over 500 of them, fitting right in. Most of them have been
+          here longer than we have.
         </p>
         <p>
           {EMBEDDED_APARTMENTS.length.toLocaleString()} embedded apartment parcels are shown here
