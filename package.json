@@ -1,0 +1,31 @@
+{
+  "name": "op-character",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:pages": "next build",
+    "build:data": "node scripts/build-data.mjs",
+    "build:collage-data": "node scripts/build-collage-data.mjs",
+    "download:apartment-images": "node scripts/download-apartment-images.mjs",
+    "test": "npm run build && node --test tests/rendered-html.test.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "react-scrollama": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "playwright": "^1.62.1",
+    "typescript": "5.9.3"
+  },
+  "type": "module"
+}
